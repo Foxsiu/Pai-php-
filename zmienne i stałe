@@ -1,0 +1,21 @@
+<?php
+$a=100; //zmienna
+var_dump($a);
+echo "<br>"
+print_r($a);
+echo "<br>a=$a"."<br>"
+$b='Ala ma kota';
+echo $b."<br>";
+var_dump($b);
+echo "<br>";
+$c=false;
+var_dump($c);
+define('zzz',300); //stała - brak znaku $
+echo "<br>".(zzz*2)."<br>";
+echo "<strong>Wartość</strong>
+<section>a=$a<br></section>";
+echo 'Wartość a=$a<br>';
+echo "wartość a=$a<br>";
+print($a);
+//phpinfo()
+?>
